@@ -1,5 +1,5 @@
-
-#Embryonic Brain Cell Development Web Portal
+**
+Embryonic Brain Cell Development Web Portal**
 
 A comprehensive educational web application designed to track and display the stages of embryonic brain development. This project utilizes a PHP-based architecture with a Bootstrap frontend to provide a responsive, user-friendly experience for students, researchers, or medical professionals.
 🌟 Features
