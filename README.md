@@ -39,6 +39,4 @@ git clone https://github.com/your-username/embryo-dev-portal.git
 3. **Move files:** Place the project folder inside your `htdocs` or `www` directory.
 4. **Access the site:** Open your browser and navigate to `http://localhost/embryo-dev-portal/home.php`.
 
----
 
-**Next Step:** Would you like me to help you create a `README.md` file specifically for your "Add Patient" or "View Data" pages to explain how the database connection works?
