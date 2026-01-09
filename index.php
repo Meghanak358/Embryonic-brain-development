@@ -1,0 +1,65 @@
+<?php include 'header.php'; ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Embryonic Brain Development</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .about-section {
+            background-color: #f8f9fa;
+            padding: 40px 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .image-gallery img {
+            height: 150px;
+            width: auto;
+            margin: 10px;
+            border-radius: 5px;
+            transition: transform 0.2s ease;
+        }
+        .image-gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">Embryonic Brain Development</h2>
+        <div class="about-section">
+            <p>
+                Embryonic brain development is a highly complex and dynamic process that begins shortly after fertilization and continues through gestation. 
+                The development of the brain occurs in distinct stages:
+            </p>
+            <ul>
+                <li><strong>Neural Plate Formation:</strong> Around the third week of embryonic development, the neural plate forms as a thickened region of ectodermal cells.</li>
+                <li><strong>Neural Tube Development:</strong> The neural plate folds to form the neural tube, which eventually gives rise to the central nervous system.</li>
+                <li><strong>Regional Specialization:</strong> The neural tube differentiates into the forebrain, midbrain, and hindbrain regions.</li>
+                <li><strong>Neurogenesis:</strong> Neural stem cells proliferate to produce neurons and glial cells.</li>
+                <li><strong>Synaptogenesis:</strong> Neurons begin forming connections (synapses) to communicate with one another.</li>
+            </ul>
+            <p>
+                This process is influenced by genetic factors and environmental cues, and disruptions can lead to developmental disorders. Research continues to explore the intricacies of embryonic brain development to better understand congenital anomalies and potential therapeutic interventions.
+            </p>
+        </div>
+
+        <h3 class="mt-4">Image Gallery</h3>
+        <div class="image-gallery d-flex flex-wrap justify-content-center">
+            <img src="em2.jpg" alt="Neural Plate">
+            <img src="em3.jpg" alt="Neural Tube">
+            <img src="em4.jpg" alt="Brain Regions">
+            <img src="em5.jpg" alt="Neurogenesis">
+            <img src="em7.jpg" alt="Synaptogenesis">
+            <img src="em6.jpg" alt="Synaptogenesis">
+        </div>
+
+        <h3 class="mt-4">Video Resource</h3>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" 
+                src="https://www.youtube.com/watch?v=lhapeOo6laA" 
+                allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>

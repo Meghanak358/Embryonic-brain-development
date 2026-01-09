@@ -1,0 +1,94 @@
+<?php include 'header.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Embryonic Brain Cell Development</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .gallery img {
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+        .stages-list {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <!-- Introduction Section -->
+        <div class="text-center mb-4">
+            <h1>Embryonic Brain Cell Development</h1>
+            <p>Explore the fascinating stages of embryonic brain cell development and learn how life begins!</p>
+        </div>
+
+        <!-- YouTube Video Section -->
+        <div class="row mb-4">
+            <div class="col-md-12 text-center">
+                <h2>Watch: Stages of Embryo Development</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe 
+                        class="embed-responsive-item" 
+                        src="https://www.youtube.com/embed/7rXvUfwpxFI" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image Gallery Section -->
+        <div class="row gallery">
+            <h2 class="col-12 text-center">Image Gallery</h2>
+            <div class="col-md-4">
+                <img src="embryo_stage1.jpg" class="img-fluid" alt="Stage 1: Fertilization">
+                <p class="text-center">Stage 1: Fertilization</p>
+            </div>
+            <div class="col-md-4">
+                <img src="embryo_stage2.jpg" class="img-fluid" alt="Stage 2: Blastocyst">
+                <p class="text-center">Stage 2: Blastocyst Formation</p>
+            </div>
+            <div class="col-md-4">
+                <img src="embryo_stage3.jpg" class="img-fluid" alt="Stage 3: Implantation">
+                <p class="text-center">Stage 3: Implantation</p>
+            </div>
+        </div>
+
+        <!-- Stages of Embryo Development Section -->
+        <div class="stages-list">
+            <h2>Stages of Embryonic Development</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <strong>1. Fertilization:</strong> The sperm and egg combine to form a zygote.
+                </li>
+                <li class="list-group-item">
+                    <strong>2. Cleavage:</strong> The zygote undergoes rapid cell division to form a blastula.
+                </li>
+                <li class="list-group-item">
+                    <strong>3. Blastocyst Formation:</strong> Cells form a hollow ball, which later implants in the uterine wall.
+                </li>
+                <li class="list-group-item">
+                    <strong>4. Gastrulation:</strong> The embryo forms three germ layers: ectoderm, mesoderm, and endoderm.
+                </li>
+                <li class="list-group-item">
+                    <strong>5. Neural Development:</strong> The ectoderm forms the neural tube, the precursor to the brain and spinal cord.
+                </li>
+                <li class="list-group-item">
+                    <strong>6. Organogenesis:</strong> Major organs, including the brain, start forming.
+                </li>
+            </ul>
+        </div>
+
+        <!-- Call to Action Section -->
+        <div class="text-center mt-4">
+            <a href="register.php" class="btn btn-primary btn-lg">Join Us to Learn More</a>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
